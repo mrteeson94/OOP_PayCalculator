@@ -1,0 +1,8 @@
+Id,FirstName,LastName,TypeEmployee,HourlyRate,HasTaxThreshold,GrossPay,TaxAmount,SuperAmount,NetPay
+1,Marge,Larkin,,25,Y,1000,161.49,105,733.51
+2,Mindy,Boss,,25,N,1000,283.09,105,611.91
+3,Mike,Jobs,,28,Y,1120,203.21,117.6,799.19
+4,Mary,Sue,,30,N,1200,352.09,126,721.91
+5,Minh,Cung,,30,Y,1200,231.03,126,842.97
+6,Mohammad,Hassan,,40,Y,1600,369.25,168,1062.75
+7,Moanna,Lee,,40,N,1600,490.09,168,941.91

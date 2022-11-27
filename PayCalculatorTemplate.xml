@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PayCalculatorTemplate</name>
+    </assembly>
+    <members>
+        <member name="T:PayCalculatorTemplate.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPaySlip(System.String)">
+            <summary>
+            Class for importing employee csv and storing list of employees via myRecords
+            <param name="FileName">stores file path for employee.csv</param>
+            <returns>A list of employees detail containing id, firstname, lastname, typeemployee, hourlyrate and taxthresholdstatus </returns>
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPayCalculator(System.String)" -->
+        <member name="T:PayCalculatorTemplate.CsvImporterPaySlip.PaySlipMap">
+            <summary>
+            subClass inheriting from Payslip class to map out properties with the csv values being read in from employee csv 
+            </summary>
+        </member>
+        <member name="T:PayCalculatorTemplate.CsvImporterPaySlip.PayCalculatorMap">
+            <summary>
+            subClass inheriting from PayCalculator class to map out properties with the csv values being read in from threshold csv files 
+            </summary>
+        </member>
+        <member name="T:PayCalculatorTemplate.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.MainWindow.#ctor">
+            <summary>
+            Initiates window WPF application with employee detail datagrid filled with employee details from employee.csv
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.MainWindow.Btn_click_calculate(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Calls all calculation methods and displays on the payment summary datagrid on the WPF UI window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PayCalculatorTemplate.MainWindow.Btn_click_save(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Saves payment summary detail of the team to a new csv file.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PayCalculatorTemplate.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PayCalculatorTemplate.PaySlip">
+            <summary>
+            Sets properties of employee's pay slip record detail
+            Also sets properties for final calculation value to be mapped out when exporting csv file
+            </summary>
+        </member>
+        <member name="T:PayCalculatorTemplate.PayCalculator">
+            <summary>
+            Base parent class to hold all Pay calculation functions for employees 
+            Its properties align with threshold csv file that is called in from the child classes to perform tax calculation
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.PayCalculator.CalculateGrossPay(System.Int32,System.Double)">
+            <summary>
+            Class method calculates gross income per employee
+            </summary>
+            <param name="hourlyRate"></param>
+            <param name="hourWorked"></param>
+            <returns>returns gross pay as a double data type</returns>
+        </member>
+        <member name="M:PayCalculatorTemplate.PayCalculator.CalculateSuper(System.Double,System.Double)">
+            <summary>
+            Class method calculates super amount per employee
+            </summary>
+            <param name="grossPay"></param>
+            <param name="superRate"></param>
+            <returns>returns super amount as a double data type </returns>
+        </member>
+        <member name="M:PayCalculatorTemplate.PayCalculator.CalculateNetPay(System.Double,System.Double,System.Double)">
+            <summary>
+            Class method calculates net pay per employee
+            </summary>
+            <param name="grossPay"></param>
+            <param name="superAmount"></param>
+            <param name="taxAmount"></param>
+            <returns>returns net pay pay as a double data type</returns>
+        </member>
+        <member name="T:PayCalculatorTemplate.PayCalculatorWithThreshold">
+            <summary>
+            Child class of PayCalculator: Extends PayCalculator class handling With tax threshold in tax calculation
+            </summary>
+        </member>
+        <member name="T:PayCalculatorTemplate.PayCalculatorNoThreshold">
+            <summary>
+            Child class of PayCalculator: Extends PayCalculator class handling no tax threshold in tax calculation
+            </summary>
+        </member>
+    </members>
+</doc>

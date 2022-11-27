@@ -1,0 +1,98 @@
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.exe
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.deps.json
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.json
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.dev.json
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.cache
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.lref
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.g.resources
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfo.cs
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\refint\PayCalculatorTemplate.dll
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.genruntimeconfig.cache
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\ref\PayCalculatorTemplate.dll
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\CsvHelper.dll
+C:\Users\User\source\repos\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CopyComplete
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.exe
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.deps.json
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.json
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.dev.json
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\bin\Debug\net5.0-windows\CsvHelper.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.AssemblyReference.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.lref
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.g.resources
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfoInputs.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfo.cs
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CoreCompileInputs.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CopyComplete
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\refint\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.genruntimeconfig.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate\PayCalculatorTemplate\obj\Debug\net5.0-windows\ref\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.exe
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.deps.json
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.json
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.dev.json
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\CsvHelper.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.AssemblyReference.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.lref
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.g.resources
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfoInputs.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfo.cs
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CoreCompileInputs.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CopyComplete
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\refint\PayCalculatorTemplate.dll
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.genruntimeconfig.cache
+C:\Users\AKATY\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\ref\PayCalculatorTemplate.dll
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.exe
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.deps.json
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.json
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.runtimeconfig.dev.json
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\CsvHelper.dll
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.AssemblyReference.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate_MarkupCompile.lref
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.g.resources
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfoInputs.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.AssemblyInfo.cs
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CoreCompileInputs.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.csproj.CopyComplete
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.dll
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\refint\PayCalculatorTemplate.dll
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.pdb
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.genruntimeconfig.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\ref\PayCalculatorTemplate.dll
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\bin\Debug\net5.0-windows\PayCalculatorTemplate.xml
+C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\obj\Debug\net5.0-windows\PayCalculatorTemplate.xml

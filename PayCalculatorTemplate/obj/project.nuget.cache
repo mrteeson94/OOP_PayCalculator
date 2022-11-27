@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jPEilcxEpoK50CT4ezpPidOlA9qzC2v39z0hMlc0BL+iBeXCS+uuGKqH/0WorzOd7iyneYH6ayhDwSUvJJAdwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP resources\\PayCalculatorTemplate - Copy\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AKATY\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
