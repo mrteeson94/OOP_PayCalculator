@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP resources\\PayCalculatorTemplate - Copy\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj": {}
+    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP resources\\PayCalculatorTemplate - Copy\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj": {
+    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP resources\\PayCalculatorTemplate - Copy\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj",
+        "projectUniqueName": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj",
         "projectName": "PayCalculatorTemplate",
-        "projectPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP resources\\PayCalculatorTemplate - Copy\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj",
+        "projectPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj",
         "packagesPath": "C:\\Users\\AKATY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP resources\\PayCalculatorTemplate - Copy\\PayCalculatorTemplate\\obj\\",
+        "outputPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\PayCalculatorTemplate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AKATY\\AppData\\Roaming\\NuGet\\NuGet.Config",

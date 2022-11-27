@@ -1,0 +1,6 @@
+C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\UnitTest2\bin\Debug\net5.0-windows\CoverletSourceRootsMapping
+C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\UnitTest2\obj\Debug\net5.0-windows\UnitTest2.csproj.AssemblyReference.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\UnitTest2\obj\Debug\net5.0-windows\UnitTest2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\UnitTest2\obj\Debug\net5.0-windows\UnitTest2.AssemblyInfoInputs.cache
+C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\UnitTest2\obj\Debug\net5.0-windows\UnitTest2.AssemblyInfo.cs
+C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\UnitTest2\obj\Debug\net5.0-windows\UnitTest2.csproj.CoreCompileInputs.cache

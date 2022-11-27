@@ -12,10 +12,13 @@ using CsvHelper.Configuration.Attributes;
 
 namespace PayCalculatorTemplate
 {
-    internal class CsvImporterPaySlip
+    /// <summary>
+    /// responsible for importing and mapping payslip and paycalculator with their respecitve csv files for the application.
+    /// </summary>
+    public class CsvImporterPaySlip
     {
         /// <summary>
-        /// Class for importing employee csv and storing list of employees via myRecords
+        /// Method responsible for importing employee csv and storing list of employees via myRecords
         /// <param name="FileName">stores file path for employee.csv</param>
         /// <returns>A list of employees detail containing id, firstname, lastname, typeemployee, hourlyrate and taxthresholdstatus </returns>
         /// </summary>
@@ -68,6 +71,9 @@ namespace PayCalculatorTemplate
         /// </summary>
         public class PaySlipMap : ClassMap<PaySlip>
         {
+            /// <summary>
+            /// Maps out payslip properties with the respective index read in from employee csv.
+            /// </summary>
             public PaySlipMap()
             {
                 Map(m => m.Id).Index(0);
@@ -83,6 +89,9 @@ namespace PayCalculatorTemplate
         /// </summary>
         public class PayCalculatorMap : ClassMap<PayCalculator>
         {
+            /// <summary>
+            /// Maps out payslip properties with the respective index read in from threshold csv files.
+            /// </summary>
             public PayCalculatorMap()
             {
                 Map(m => m.IncomeRangeA).Index(0);

@@ -18,6 +18,7 @@ namespace PayCalculatorTemplate
     /// </summary>
     public class PaySlip
     {
+        
         public int Id { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
@@ -84,12 +85,17 @@ namespace PayCalculatorTemplate
         /// </summary>
         public class PayCalculatorWithThreshold : PayCalculator
         {
+            /// <summary>
+            /// Finds 
+            /// </summary>
+            /// <param name="grossPay"></param>
+            /// <returns></returns>
             public static double[] CalculateTax(double grossPay)
             {
                 double[] taxRate = new double[2];
 
                 //Read and assign object list to store the tax rate from taxrate-withthreshold.csv  
-                string FileName = @"C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\taxrate-withthreshold.csv";
+                string FileName = @"C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\PayCalculatorTemplate\taxrate-withthreshold.csv";
                 List<PayCalculator> importedThreshold = new List<PayCalculator>();
                 importedThreshold = CsvImporterPaySlip.ImportPayCalculator(FileName).ToList();
 
@@ -111,11 +117,16 @@ namespace PayCalculatorTemplate
     /// </summary>
     public class PayCalculatorNoThreshold : PayCalculator
         {
+            /// <summary>
+            /// checks with given gross pay amount of what tax range for the employee to recieve 
+            /// </summary>
+            /// <param name="grossPay"></param>
+            /// <returns>retruns taxrateA and taxrateB in double array struct</returns>
             public static double[] CalculateTax(double grossPay)
             {
                 double[] taxRate = new double[2];
                 //Read and assign object list to store the tax rate from taxrate-nothreshold.csv
-                string FileName = @"C:\Users\AKATY\OneDrive\Desktop\OOP resources\PayCalculatorTemplate - Copy\PayCalculatorTemplate\taxrate-nothreshold.csv";
+                string FileName = @"C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\PayCalculatorTemplate\taxrate-nothreshold.csv";
                 List<PayCalculator> importedThreshold = new List<PayCalculator>();
                 importedThreshold = CsvImporterPaySlip.ImportPayCalculator(FileName).ToList();
 

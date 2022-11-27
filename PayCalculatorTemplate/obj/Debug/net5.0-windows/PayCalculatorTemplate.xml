@@ -22,9 +22,14 @@
             Application Entry Point.
             </summary>
         </member>
+        <member name="T:PayCalculatorTemplate.CsvImporterPaySlip">
+            <summary>
+            responsible for importing and mapping payslip and paycalculator with their respecitve csv files for the application.
+            </summary>
+        </member>
         <member name="M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPaySlip(System.String)">
             <summary>
-            Class for importing employee csv and storing list of employees via myRecords
+            Method responsible for importing employee csv and storing list of employees via myRecords
             <param name="FileName">stores file path for employee.csv</param>
             <returns>A list of employees detail containing id, firstname, lastname, typeemployee, hourlyrate and taxthresholdstatus </returns>
             </summary>
@@ -35,9 +40,19 @@
             subClass inheriting from Payslip class to map out properties with the csv values being read in from employee csv 
             </summary>
         </member>
+        <member name="M:PayCalculatorTemplate.CsvImporterPaySlip.PaySlipMap.#ctor">
+            <summary>
+            Maps out payslip properties with the respective index read in from employee csv.
+            </summary>
+        </member>
         <member name="T:PayCalculatorTemplate.CsvImporterPaySlip.PayCalculatorMap">
             <summary>
             subClass inheriting from PayCalculator class to map out properties with the csv values being read in from threshold csv files 
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.CsvImporterPaySlip.PayCalculatorMap.#ctor">
+            <summary>
+            Maps out payslip properties with the respective index read in from threshold csv files.
             </summary>
         </member>
         <member name="T:PayCalculatorTemplate.MainWindow">
@@ -114,10 +129,24 @@
             Child class of PayCalculator: Extends PayCalculator class handling With tax threshold in tax calculation
             </summary>
         </member>
+        <member name="M:PayCalculatorTemplate.PayCalculatorWithThreshold.CalculateTax(System.Double)">
+            <summary>
+            Finds 
+            </summary>
+            <param name="grossPay"></param>
+            <returns></returns>
+        </member>
         <member name="T:PayCalculatorTemplate.PayCalculatorNoThreshold">
             <summary>
             Child class of PayCalculator: Extends PayCalculator class handling no tax threshold in tax calculation
             </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.PayCalculatorNoThreshold.CalculateTax(System.Double)">
+            <summary>
+            checks with given gross pay amount of what tax range for the employee to recieve 
+            </summary>
+            <param name="grossPay"></param>
+            <returns>retruns taxrateA and taxrateB in double array struct</returns>
         </member>
     </members>
 </doc>
