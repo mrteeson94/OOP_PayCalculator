@@ -26,7 +26,7 @@ namespace PayCalculatorTemplate
     public partial class MainWindow : Window
     {
         
-        public const string FileName = @"C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\PayCalculatorTemplate\employee.csv";
+        public const string FileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\PayCalculatorTemplate\employee.csv";
         //instantiate List<object> to store employee payslip details
         List<PaySlip> importedRecords = CsvImporterPaySlip.ImportPaySlip(FileName);
         //hoursworked to store user input in textbox
@@ -53,7 +53,7 @@ namespace PayCalculatorTemplate
         private void Btn_click_calculate(object sender, RoutedEventArgs e)
         {
             hoursWorked = Convert.ToInt32(TextBoxHours.Text);
-            MessageBox.Show($"user test input: {hoursWorked}hrs");
+            //MessageBox.Show($"user test input: {hoursWorked}hrs");  <-- alert message showing user input
 
             //calculation logic
 
@@ -100,6 +100,7 @@ namespace PayCalculatorTemplate
                     TaxAmount = taxAmount,
                     SuperAmount = superAmount,
                     NetPay = netPay,
+                    TypeEmployee = paySlip.TypeEmployee
                 };
                 list.Add(paysliprow);
             }
@@ -116,7 +117,7 @@ namespace PayCalculatorTemplate
         {
             //var savePaySlip = new List<PaySlip>();
             //savePaySlip = list;
-            var saveFileName = @"C:\Users\AKATY\OneDrive\Desktop\OOP project\Part3Application\OOP_PayCalculator\PayCalculatorTemplate\new_team_payslip-" + DateTime.Now.ToFileTime() + ".csv";
+            var saveFileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\saved_csv_file\new_team_Payslip-" + DateTime.Now.ToFileTime() + ".csv";
             using (var writer = new StreamWriter(saveFileName))
             {
                 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))

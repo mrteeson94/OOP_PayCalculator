@@ -20,9 +20,9 @@
         <DataGrid x:Name="empDataGrid" Margin="21,76,491,101" AutoGenerateColumns="False"
               ItemsSource="{Binding}" SelectionChanged="empDataGrid_SelectionChanged">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Id}" Header="id" Width="*"/>
-                <DataGridTextColumn Binding="{Binding FirstName}" Width="*" Header="fName"/>
-                <DataGridTextColumn Binding="{Binding LastName}" Width="*" Header="lName"/>
+                <DataGridTextColumn Binding="{Binding Id}" Header="ID" Width="*"/>
+                <DataGridTextColumn Binding="{Binding FirstName}" Width="*" Header="first Name"/>
+                <DataGridTextColumn Binding="{Binding LastName}" Width="*" Header="Last Name"/>
             </DataGrid.Columns>
 
         </DataGrid>
@@ -33,9 +33,9 @@
         <DataGrid x:Name="newDataGrid" Margin="366,76,10,101" AutoGenerateColumns="False"
             ItemsSource="{Binding}" Grid.ColumnSpan="2">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Id}" Header="id" Width="*"/>
-                <DataGridTextColumn Binding="{Binding Fname}" Width="*" Header="fName"/>
-                <DataGridTextColumn Binding="{Binding LastName}" Width="*" Header="lName"/>
+                <DataGridTextColumn Binding="{Binding Id}" Header="ID" Width="*"/>
+                <DataGridTextColumn Binding="{Binding FirstName}" Width="*" Header="First Name"/>
+                <DataGridTextColumn Binding="{Binding LastName}" Width="*" Header="Last Name"/>
                 <DataGridTextColumn Binding="{Binding HourlyRate}" Header="HrsWrk" Width="*"/>
                 <DataGridTextColumn Binding="{Binding HasTaxThreshold}" Header="HasTax" Width="*"/>
                 <DataGridTextColumn Binding="{Binding GrossPay}" Width="*" Header="Gross"/>
