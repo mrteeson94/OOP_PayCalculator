@@ -2,7 +2,7 @@
 
 ##Preview 
 Demo of the current state of the application
-*insert GIF here*
+![Alt Text](https://github.com/mrteeson94/OOP_PayCalculator/blob/main/payCalculator.gif)
 
 ## Table Content
 * [Application Summary](#Application-Summary)
