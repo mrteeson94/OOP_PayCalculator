@@ -1,7 +1,5 @@
 # OOP_PayCalculator
-
-## Preview 
-Demo of the current state of the application
+Preview Demo of the current state of the application
 ![Alt Text](https://github.com/mrteeson94/OOP_PayCalculator/blob/main/payCalculator.gif)
 
 ## Table Content
