@@ -5,9 +5,11 @@ Demo of the current state of the application
 *insert GIF here*
 
 ## Table Content
-*[Application Summary](#Application-Summary)
-*[Technology & Language Used](#Technology-&-Language-Used)
-*[Functionality](#Functionality)
+* [Application Summary](#Application-Summary)
+
+* [Technology & Language Used](#Technology-&-Language-Used)
+
+* [Functionality](#Functionality)
 
 ## Application Progression Summary
 PayCalculator is a WPF application simulating a manager user inputting weekly hours worked to obtain the team's payslip details of the week 
