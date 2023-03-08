@@ -1,5 +1,5 @@
 # OOP_PayCalculator
-Preview demo of the current state of the application
+Preview demo
 ![Alt Text](https://github.com/mrteeson94/OOP_PayCalculator/blob/main/payCalculator.gif)
 
 ## Table Content
@@ -14,7 +14,7 @@ PayCalculator is a WPF application simulating a manager user inputting weekly ho
 which includes gross/net weekly income, super & tax. These calculated metrics can then be saved into a csv spreadsheet for admin use.
 
 This is my first back-end project which demonstrates my understanding in object-oriented programming in utilising classes + objects, 
-apply OOP principles such as abstraction, inheritance and polymorphism, ability to use resuable components from Nuget package to 
+apply OOP principles such as abstraction, inheritance and polymorphism, ability to use reusable components from Nuget package to 
 produce efficient code layout (saving time and ram space usage) and manipulate spreadsheet files such as exporting, updating and deleting CSV files.
 
 ## Technology & Language Used
