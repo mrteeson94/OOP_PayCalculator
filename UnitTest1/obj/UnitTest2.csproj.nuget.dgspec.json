@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest1\\UnitTest2.csproj": {}
+    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest2\\UnitTest2.csproj": {}
   },
   "projects": {
     "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\PayCalculatorTemplate\\PayCalculatorTemplate.csproj": {
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest1\\UnitTest2.csproj": {
+    "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest2\\UnitTest2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest1\\UnitTest2.csproj",
+        "projectUniqueName": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest2\\UnitTest2.csproj",
         "projectName": "UnitTest2",
-        "projectPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest1\\UnitTest2.csproj",
+        "projectPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest2\\UnitTest2.csproj",
         "packagesPath": "C:\\Users\\AKATY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest1\\obj\\",
+        "outputPath": "C:\\Users\\AKATY\\OneDrive\\Desktop\\OOP project\\Part3Application\\OOP_PayCalculator\\UnitTest2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AKATY\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -27,14 +27,6 @@
             responsible for importing and mapping payslip and paycalculator with their respecitve csv files for the application.
             </summary>
         </member>
-        <member name="M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPaySlip(System.String)">
-            <summary>
-            Method responsible for importing employee csv and storing list of employees via myRecords
-            <param name="FileName">stores file path for employee.csv</param>
-            <returns>A list of employees detail containing id, firstname, lastname, typeemployee, hourlyrate and taxthresholdstatus </returns>
-            </summary>
-        </member>
-        <!-- Badly formed XML comment ignored for member "M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPayCalculator(System.String)" -->
         <member name="T:PayCalculatorTemplate.CsvImporterPaySlip.PaySlipMap">
             <summary>
             subClass inheriting from Payslip class to map out properties with the csv values being read in from employee csv 
@@ -55,6 +47,14 @@
             Maps out payslip properties with the respective index read in from threshold csv files.
             </summary>
         </member>
+        <member name="M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPaySlip(System.String)">
+            <summary>
+            Method responsible for importing employee csv and storing list of employees via myRecords
+            <param name="FileName">stores file path for employee.csv</param>
+            <returns>A list of employees detail containing id, firstname, lastname, typeemployee, hourlyrate and taxthresholdstatus </returns>
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPayCalculator(System.String)" -->
         <member name="T:PayCalculatorTemplate.MainWindow">
             <summary>
             Interaction logic for MainWindow.xaml
@@ -76,7 +76,7 @@
             <param name="e"></param>
         </member>
         <member name="M:PayCalculatorTemplate.MainWindow.Btn_click_save(System.Object,System.Windows.RoutedEventArgs)">
-            <summary>
+            <summary> 
             Saves payment summary detail of the team to a new csv file.
             </summary>
             <param name="sender"></param>

@@ -26,7 +26,7 @@ namespace PayCalculatorTemplate
     public partial class MainWindow : Window
     {
         
-        public const string FileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\PayCalculatorTemplate\employee.csv";
+        public const string FileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\PayCalculatorTemplate\rawData\employee.csv";
         //instantiate List<object> to store employee payslip details
         List<PaySlip> importedRecords = CsvImporterPaySlip.ImportPaySlip(FileName);
         //hoursworked to store user input in textbox
@@ -36,6 +36,7 @@ namespace PayCalculatorTemplate
         //instantiate List<object> to store calculations per employee
         List<PaySlip> list = new List<PaySlip>();
 
+
         /// <summary>
         /// Initiates window WPF application with employee detail datagrid filled with employee details from employee.csv
         /// </summary>
@@ -44,6 +45,7 @@ namespace PayCalculatorTemplate
             InitializeComponent();
             empDataGrid.DataContext = importedRecords;
         }
+
 
         /// <summary>
         /// Calls all calculation methods and displays on the payment summary datagrid on the WPF UI window
@@ -108,7 +110,8 @@ namespace PayCalculatorTemplate
             newDataGrid.DataContext = list;
         }
 
-        /// <summary>
+
+        /// <summary> 
         /// Saves payment summary detail of the team to a new csv file.
         /// </summary>
         /// <param name="sender"></param>
@@ -117,7 +120,7 @@ namespace PayCalculatorTemplate
         {
             //var savePaySlip = new List<PaySlip>();
             //savePaySlip = list;
-            var saveFileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\saved_csv_file\new_team_Payslip-" + DateTime.Now.ToFileTime() + ".csv";
+            var saveFileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\saved_csv_file\outData\new_team_Payslip-" + DateTime.Now.ToFileTime() + ".csv";
             using (var writer = new StreamWriter(saveFileName))
             {
                 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
@@ -127,6 +130,8 @@ namespace PayCalculatorTemplate
             }
             MessageBox.Show("New PaySlip csv file saved!");
         }
+
+
 
         private void empDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

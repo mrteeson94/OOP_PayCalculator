@@ -17,6 +17,43 @@ namespace PayCalculatorTemplate
     /// </summary>
     public class CsvImporterPaySlip
     {
+
+        /// <summary>
+        /// subClass inheriting from Payslip class to map out properties with the csv values being read in from employee csv 
+        /// </summary>
+        public class PaySlipMap : ClassMap<PaySlip>
+        {
+            /// <summary>
+            /// Maps out payslip properties with the respective index read in from employee csv.
+            /// </summary>
+            public PaySlipMap()
+            {
+                Map(m => m.Id).Index(0);
+                Map(m => m.FirstName).Index(1);
+                Map(m => m.LastName).Index(2);
+                Map(m => m.TypeEmployee).Index(3);
+                Map(m => m.HourlyRate).Index(4);
+                Map(m => m.HasTaxThreshold).Index(5);
+            }
+        }
+
+
+        /// <summary>
+        /// subClass inheriting from PayCalculator class to map out properties with the csv values being read in from threshold csv files 
+        /// </summary>
+        public class PayCalculatorMap : ClassMap<PayCalculator>
+        {
+            /// <summary>
+            /// Maps out payslip properties with the respective index read in from threshold csv files.
+            /// </summary>
+            public PayCalculatorMap()
+            {
+                Map(m => m.IncomeRangeA).Index(0);
+                Map(m => m.IncomeRangeB).Index(1);
+                Map(m => m.TaxRateA).Index(2);
+                Map(m => m.TaxRateB).Index(3);
+            }
+        }
         /// <summary>
         /// Method responsible for importing employee csv and storing list of employees via myRecords
         /// <param name="FileName">stores file path for employee.csv</param>
@@ -34,13 +71,15 @@ namespace PayCalculatorTemplate
                 using (var csv = new CsvReader(reader, config))
                 {
                     csv.Context.RegisterClassMap<PaySlipMap>();
-                    var records = csv.GetRecords<PaySlip>();
-                    myRecords = records.ToList(); //adds all the rows to myRecords
+                    myRecords = csv.GetRecords<PaySlip>().ToList();
+                    //myRecords = records.ToList(); //adds all the rows to myRecords
                 }
             }
             return myRecords;
 
         }
+        
+        
         /// <summary>
         /// Class for importing threshold csv and storing list of employee's income range & tax rates via myRecords
         /// <param name="FileName">stores file path for taxrate-nothreshold.csv OR taxrate-withthreshold.csv</param>
@@ -65,42 +104,6 @@ namespace PayCalculatorTemplate
             return myRecords;
 
         }
-
-        /// <summary>
-        /// subClass inheriting from Payslip class to map out properties with the csv values being read in from employee csv 
-        /// </summary>
-        public class PaySlipMap : ClassMap<PaySlip>
-        {
-            /// <summary>
-            /// Maps out payslip properties with the respective index read in from employee csv.
-            /// </summary>
-            public PaySlipMap()
-            {
-                Map(m => m.Id).Index(0);
-                Map(m => m.FirstName).Index(1);
-                Map(m => m.LastName).Index(2);
-                Map(m => m.TypeEmployee).Index(3);
-                Map(m => m.HourlyRate).Index(4);
-                Map(m => m.HasTaxThreshold).Index(5);
-            }
-        }
-        /// <summary>
-        /// subClass inheriting from PayCalculator class to map out properties with the csv values being read in from threshold csv files 
-        /// </summary>
-        public class PayCalculatorMap : ClassMap<PayCalculator>
-        {
-            /// <summary>
-            /// Maps out payslip properties with the respective index read in from threshold csv files.
-            /// </summary>
-            public PayCalculatorMap()
-            {
-                Map(m => m.IncomeRangeA).Index(0);
-                Map(m => m.IncomeRangeB).Index(1);
-                Map(m => m.TaxRateA).Index(2);
-                Map(m => m.TaxRateB).Index(3);
-            }
-        }
-
 
     }
 }
