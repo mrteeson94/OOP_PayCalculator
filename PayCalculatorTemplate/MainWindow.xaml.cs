@@ -17,6 +17,7 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using System.IO;
 using System.Globalization;
+using Path = System.IO.Path;
 
 namespace PayCalculatorTemplate
 {
@@ -25,10 +26,11 @@ namespace PayCalculatorTemplate
     /// </summary>
     public partial class MainWindow : Window
     {
-        
-        public const string FileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\PayCalculatorTemplate\rawData\employee.csv";
+        public const string fileNameEmployee = @"..\rawData\employee.csv";
+        public const string fileNameWithThreshold = @"..\rawData\taxrate-withthreshold.csv";
+        public const string fileNameNoThreshold = @"..\rawData\taxrate-nothreshold.csv";
         //instantiate List<object> to store employee payslip details
-        List<PaySlip> importedRecords = CsvImporterPaySlip.ImportPaySlip(FileName);
+        List<PaySlip> importedRecords;
         //hoursworked to store user input in textbox
         int hoursWorked;
         //superRate is defined outside of the payslip && paycalculator as its defined by a fixed value currently 10.5%
@@ -43,9 +45,22 @@ namespace PayCalculatorTemplate
         public MainWindow()
         {
             InitializeComponent();
+            string filePath = GetCsvFilePath(fileNameEmployee);
+            importedRecords = CsvImporterPaySlip.ImportPaySlip(filePath);
             empDataGrid.DataContext = importedRecords;
         }
 
+        private string GetCsvFilePath(string fileName) 
+        {
+            string? currentDirectory = Directory.GetCurrentDirectory();
+            string? parentDirectory = Directory.GetParent(currentDirectory)?.Parent?.FullName;
+            if (!String.IsNullOrEmpty(parentDirectory))
+            {
+                return Path.Combine(parentDirectory, fileName);
+            }
+            else
+                throw new Exception("Unable to determine the parent directory of the executable file.");
+        }
 
         /// <summary>
         /// Calls all calculation methods and displays on the payment summary datagrid on the WPF UI window
@@ -59,7 +74,7 @@ namespace PayCalculatorTemplate
 
             //calculation logic
 
-            importedRecords = CsvImporterPaySlip.ImportPaySlip(FileName).ToList();
+            importedRecords.ToList();
             double grossPay;
             double taxAmount;
             double superAmount;
@@ -74,13 +89,13 @@ namespace PayCalculatorTemplate
 
                 if (paySlip.HasTaxThreshold == "Y")
                 {
-                    PayCalculatorWithThreshold withTaxThreshold = new PayCalculatorWithThreshold();
-                    taxRate = PayCalculatorWithThreshold.CalculateTax(grossPay); //Should return us 2 values TaxRateA and TaxRateB
+                    string? filePath = GetCsvFilePath(fileNameWithThreshold);
+                    taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath); //Should return us 2 values TaxRateA and TaxRateB
                 }
                 else if (paySlip.HasTaxThreshold == "N")
                 {
-                    PayCalculatorNoThreshold noTaxThreshold = new PayCalculatorNoThreshold();
-                    taxRate = PayCalculatorNoThreshold.CalculateTax(grossPay);
+                    string? filePath = GetCsvFilePath(fileNameNoThreshold);
+                    taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath); //Should return us 2 values TaxRateA and TaxRateB
                 }
                 //Calculate taxAmount
                 taxAmount = Math.Round((taxRate[0] * grossPay) - taxRate[1], 2);

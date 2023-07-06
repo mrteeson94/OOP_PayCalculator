@@ -55,6 +55,18 @@
             </summary>
         </member>
         <!-- Badly formed XML comment ignored for member "M:PayCalculatorTemplate.CsvImporterPaySlip.ImportPayCalculator(System.String)" -->
+        <member name="T:PayCalculatorTemplate.GetTaxRatesFromGrossPay">
+            <summary>
+            Child class of PayCalculator: Extends PayCalculator class handling With tax threshold in tax calculation
+            </summary>
+        </member>
+        <member name="M:PayCalculatorTemplate.GetTaxRatesFromGrossPay.GetTaxRates(System.Double,System.String)">
+            <summary>
+            Finds 
+            </summary>
+            <param name="grossPay"></param>
+            <returns></returns>
+        </member>
         <member name="T:PayCalculatorTemplate.MainWindow">
             <summary>
             Interaction logic for MainWindow.xaml
@@ -85,12 +97,6 @@
         <member name="M:PayCalculatorTemplate.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent
-            </summary>
-        </member>
-        <member name="T:PayCalculatorTemplate.PaySlip">
-            <summary>
-            Sets properties of employee's pay slip record detail
-            Also sets properties for final calculation value to be mapped out when exporting csv file
             </summary>
         </member>
         <member name="T:PayCalculatorTemplate.PayCalculator">
@@ -124,29 +130,11 @@
             <param name="taxAmount"></param>
             <returns>returns net pay pay as a double data type</returns>
         </member>
-        <member name="T:PayCalculatorTemplate.PayCalculatorWithThreshold">
+        <member name="T:PayCalculatorTemplate.PaySlip">
             <summary>
-            Child class of PayCalculator: Extends PayCalculator class handling With tax threshold in tax calculation
+            Sets properties of employee's pay slip record detail
+            Also sets properties for final calculation value to be mapped out when exporting csv file
             </summary>
-        </member>
-        <member name="M:PayCalculatorTemplate.PayCalculatorWithThreshold.CalculateTax(System.Double)">
-            <summary>
-            Finds 
-            </summary>
-            <param name="grossPay"></param>
-            <returns></returns>
-        </member>
-        <member name="T:PayCalculatorTemplate.PayCalculatorNoThreshold">
-            <summary>
-            Child class of PayCalculator: Extends PayCalculator class handling no tax threshold in tax calculation
-            </summary>
-        </member>
-        <member name="M:PayCalculatorTemplate.PayCalculatorNoThreshold.CalculateTax(System.Double)">
-            <summary>
-            checks with given gross pay amount of what tax range for the employee to recieve 
-            </summary>
-            <param name="grossPay"></param>
-            <returns>retruns taxrateA and taxrateB in double array struct</returns>
         </member>
     </members>
 </doc>
