@@ -35,4 +35,4 @@ produce efficient code layout (saving time and ram space usage) and manipulate s
  ## UPDATE
 * Completed 06/07/23: Relative pathing for reading csv files have been added to avoid manual edit when used in different environemnts.
 * Completed 06/07/23: Calculate button to wipe calculated values and query new payslip for employees in a single app session
-* Currently in progress..: Select single employee to perform calculation and import csv file containing only their payslip details
+* Completed 07/07/23: Select single employee to perform calculation and import csv file containing only their payslip details
