@@ -10,7 +10,6 @@ Preview demo
 * [Functionality](#Functionality)
 
 * [UPDATE](#UPDATE)
-* 
 ## Application Progression Summary
 PayCalculator is a WPF application simulating a manager user inputting weekly hours worked to obtain the team's payslip details of the week 
 which includes gross/net weekly income, super & tax. These calculated metrics can then be saved into a csv spreadsheet for admin use.
