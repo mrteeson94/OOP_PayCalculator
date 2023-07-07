@@ -29,6 +29,7 @@ namespace PayCalculatorTemplate
         public const string fileNameEmployee = @"..\rawData\employee.csv";
         public const string fileNameWithThreshold = @"..\rawData\taxrate-withthreshold.csv";
         public const string fileNameNoThreshold = @"..\rawData\taxrate-nothreshold.csv";
+        public string folderOutData = @"..\outData\new_team_Payslip-" + DateTime.Now.ToFileTime() + ".csv";
         //instantiate List<object> to store employee payslip details
         List<PaySlip> importedRecords;
         //hoursworked to store user input in textbox
@@ -69,6 +70,12 @@ namespace PayCalculatorTemplate
         /// <param name="e"></param>
         private void Btn_click_calculate(object sender, RoutedEventArgs e)
         {
+            //refreshes newDataGrid with new query results!
+            if (newDataGrid.Items.Count != 0)
+            {
+                list.Clear();
+                newDataGrid.DataContext = Enumerable.Empty<PaySlip>();
+            }
             hoursWorked = Convert.ToInt32(TextBoxHours.Text);
             //MessageBox.Show($"user test input: {hoursWorked}hrs");  <-- alert message showing user input
 
@@ -95,7 +102,7 @@ namespace PayCalculatorTemplate
                 else if (paySlip.HasTaxThreshold == "N")
                 {
                     string? filePath = GetCsvFilePath(fileNameNoThreshold);
-                    taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath); //Should return us 2 values TaxRateA and TaxRateB
+                    taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath);
                 }
                 //Calculate taxAmount
                 taxAmount = Math.Round((taxRate[0] * grossPay) - taxRate[1], 2);
@@ -135,7 +142,7 @@ namespace PayCalculatorTemplate
         {
             //var savePaySlip = new List<PaySlip>();
             //savePaySlip = list;
-            var saveFileName = @"C:\Users\AKATY\source\repos\OOP_PayCalculator\saved_csv_file\outData\new_team_Payslip-" + DateTime.Now.ToFileTime() + ".csv";
+            var saveFileName = GetCsvFilePath(folderOutData);
             using (var writer = new StreamWriter(saveFileName))
             {
                 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
@@ -148,10 +155,7 @@ namespace PayCalculatorTemplate
 
 
 
-        private void empDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            //crash if deleted
-        }
+
 
         private void newDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
