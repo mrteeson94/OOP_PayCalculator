@@ -77,61 +77,70 @@ namespace PayCalculatorTemplate
                 newDataGrid.DataContext = Enumerable.Empty<PaySlip>();
             }
             hoursWorked = Convert.ToInt32(TextBoxHours.Text);
-            //MessageBox.Show($"user test input: {hoursWorked}hrs");  <-- alert message showing user input
 
-            //calculation logic
-
-            importedRecords.ToList();
-            double grossPay;
-            double taxAmount;
-            double superAmount;
-            double netPay;
-
+            PaySlip selectedEmployee = (PaySlip)empDataGrid.SelectedItem;
             //loop through and store calculation + employee payslip detail into list object
-            foreach (var paySlip in importedRecords)
+            if (selectedEmployee != null)
             {
-                //Calculate the gross and tax amounts
-                double[] taxRate = new double[2];
-                grossPay = PayCalculator.CalculateGrossPay(paySlip.HourlyRate, hoursWorked);
-
-                if (paySlip.HasTaxThreshold == "Y")
+                CalculatePaySlip(selectedEmployee, hoursWorked);
+            }
+            else
+            {
+                foreach (var paySlip in importedRecords)
                 {
-                    string? filePath = GetCsvFilePath(fileNameWithThreshold);
-                    taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath); //Should return us 2 values TaxRateA and TaxRateB
+                    CalculatePaySlip(paySlip, hoursWorked);
                 }
-                else if (paySlip.HasTaxThreshold == "N")
-                {
-                    string? filePath = GetCsvFilePath(fileNameNoThreshold);
-                    taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath);
-                }
-                //Calculate taxAmount
-                taxAmount = Math.Round((taxRate[0] * grossPay) - taxRate[1], 2);
-
-                //Calculate super 
-                superAmount = PayCalculator.CalculateSuper(grossPay, superRate);
-
-                //Calculate  netPay
-                netPay = PayCalculator.CalculateNetPay(grossPay, superAmount, taxAmount);
-                //institate object to store a row of all calculation
-                var paysliprow = new PaySlip
-                {
-                    Id = paySlip.Id,
-                    FirstName = paySlip.FirstName,
-                    LastName = paySlip.LastName,
-                    HourlyRate = paySlip.HourlyRate,
-                    HasTaxThreshold = paySlip.HasTaxThreshold,
-                    GrossPay = grossPay,
-                    TaxAmount = taxAmount,
-                    SuperAmount = superAmount,
-                    NetPay = netPay,
-                    TypeEmployee = paySlip.TypeEmployee
-                };
-                list.Add(paysliprow);
             }
             //databinding List<PaySlip> to newDataGrid
             newDataGrid.DataContext = list;
         }
 
+        private void CalculatePaySlip(PaySlip payslip, int hoursWorked)
+        {
+            //calculation logic
+            double grossPay;
+            double taxAmount;
+            double superAmount;
+            double netPay;
+
+            //Calculate the gross and tax amounts
+            double[] taxRate = new double[2];
+            grossPay = PayCalculator.CalculateGrossPay(payslip.HourlyRate, hoursWorked);
+
+            if (payslip.HasTaxThreshold == "Y")
+            {
+                string? filePath = GetCsvFilePath(fileNameWithThreshold);
+                taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath); //Should return us 2 values TaxRateA and TaxRateB
+            }
+            else if (payslip.HasTaxThreshold == "N")
+            {
+                string? filePath = GetCsvFilePath(fileNameNoThreshold);
+                taxRate = GetTaxRatesFromGrossPay.GetTaxRates(grossPay, filePath);
+            }
+            //Calculate taxAmount
+            taxAmount = Math.Round((taxRate[0] * grossPay) - taxRate[1], 2);
+
+            //Calculate super 
+            superAmount = PayCalculator.CalculateSuper(grossPay, superRate);
+
+            //Calculate  netPay
+            netPay = PayCalculator.CalculateNetPay(grossPay, superAmount, taxAmount);
+            //institate object to store a row of all calculation
+            var paysliprow = new PaySlip
+            {
+                Id = payslip.Id,
+                FirstName = payslip.FirstName,
+                LastName = payslip.LastName,
+                HourlyRate = payslip.HourlyRate,
+                HasTaxThreshold = payslip.HasTaxThreshold,
+                GrossPay = grossPay,
+                TaxAmount = taxAmount,
+                SuperAmount = superAmount,
+                NetPay = netPay,
+                TypeEmployee = payslip.TypeEmployee
+            };
+            list.Add(paysliprow);
+        }
 
         /// <summary> 
         /// Saves payment summary detail of the team to a new csv file.
