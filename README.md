@@ -33,6 +33,6 @@ produce efficient code layout (saving time and ram space usage) and manipulate s
 * Save button feature to save all the team's payslip records onto a csv file for HR/payroll admin use.
 
  ## UPDATE
-* Current: Relative pathing for reading csv files have been added to avoid manual edit when used in different environemnts.
-* Features in progress: Calculate button to wipe calculated values and query new payslip for employees in a single app session
-* Future features: Select single employee to perform calculation and import csv file containing only their payslip details
+* Completed 06/07/23: Relative pathing for reading csv files have been added to avoid manual edit when used in different environemnts.
+* Completed 06/07/23: Calculate button to wipe calculated values and query new payslip for employees in a single app session
+* Currently in progress..: Select single employee to perform calculation and import csv file containing only their payslip details
